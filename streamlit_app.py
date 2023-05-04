@@ -10,7 +10,7 @@ def get_fruity_vice_data(this_fruit_choice):
   fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
   return fruityvice_normalized
 
-def get_fruit_load_list:
+def get_fruit_load_list():
   with my_cnx.cursor() as my_cur:
     my_cur.execute
     my_cur.execute("SELECT * FROM PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST")
